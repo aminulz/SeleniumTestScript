@@ -19,7 +19,7 @@ import static org.junit.Assert.fail;
         JavascriptExecutor js;
         @Before
         public void setUp() throws Exception {
-            System.setProperty("webdriver.chrome.driver", "C://WebDrivers//chromedriver//chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver\\chromedriver.exe");
             driver = new ChromeDriver();
             baseUrl = "https://www.google.com/";
             driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
